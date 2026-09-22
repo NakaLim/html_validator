@@ -33,12 +33,6 @@ def validate_html(html):
             stack.append(name)
     return len(stack) == 0
 
-'''
-all_tags = _extract_tags(html)
-for x in all_tags:
-if balanced_parens
-'''
-
 
 def _extract_tags(html):
     '''
