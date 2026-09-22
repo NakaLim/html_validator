@@ -59,5 +59,5 @@ def _extract_tags(html):
         elif is_inside:
             char_in_tag += char
     if is_inside:
-       raise ValueError("found < without matching >")
+        raise ValueError("found < without matching >")
     return tags
